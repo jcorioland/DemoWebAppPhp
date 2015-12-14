@@ -17,7 +17,7 @@ $webAppTitle = "Démonstration Azure Web Apps & PHP";
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>Azure Web App - PHP</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -77,7 +77,7 @@ $webAppTitle = "Démonstration Azure Web Apps & PHP";
       <hr>
 
       <footer>
-        <p><?php echo $webAppTitle . " - " . $webAppVersion . " - " . date("dd/MM/yyyy")  ?></p>
+        <p><?php echo $webAppTitle . " - " . $webAppVersion . " - " . date("d/m/Y")  ?></p>
       </footer>
     </div> <!-- /container -->
 
