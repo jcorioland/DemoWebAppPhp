@@ -5,6 +5,12 @@
 $webAppVersion = "1.0.0";
 $webAppTitle = "Démonstration Azure Web Apps & PHP";
 
+require __DIR__ . '/vendor/autoload.php';
+
+$log = new Monolog\Logger('WebAppLogger');
+$log->pushHandler(new Monolog\Handler\StreamHandler('webapp.log', Monolog\Logger::INFO));
+$log->addInfo('Index.php called');
+
 ?>
 
 <html lang="en">
