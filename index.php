@@ -2,7 +2,7 @@
 
 <?php
 
-$webAppVersion = "1.0.0";
+$webAppVersion = "2.0.0";
 $webAppTitle = "Démonstration Azure Web Apps & PHP";
 
 require __DIR__ . '/vendor/autoload.php';
